@@ -106,7 +106,7 @@ li a {
 }
 
 .myslides {
-    position: absolute;
+    /* position: absolute; */
     display: none;
 }
 
@@ -115,13 +115,37 @@ li a {
 }
 
 /* products */
-.employee{
+.employee {
     /* position: relative; */
+    background-color: #f2f2f3;
+    /* padding: 70px; */
 }
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #fff;
     transition: 0.3s;
-    border-radius: 5px;
+}
+.card-body p{
+    margin-top: 10px;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 50px;
+}
+
+.row {
+    margin: 0 -5px;
+    padding: 40px 0px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .card:hover {
