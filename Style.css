@@ -116,9 +116,7 @@ li a {
 
 /* products */
 .employee {
-    /* position: relative; */
     background-color: #f2f2f3;
-    /* padding: 70px; */
 }
 
 .card {
@@ -154,4 +152,18 @@ li a {
 
 .card-body {
     padding: 2px 16px;
+}
+
+/* footer */
+.footer{
+    background-color: black;
+    color: #fff;
+    padding-top: 40px;
+}
+.footer .text{
+    text-align: center;
+    padding: 50px;
+}
+.footer .ul{
+    padding: 10px 20px;
 }
